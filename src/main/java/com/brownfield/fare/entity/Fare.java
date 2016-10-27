@@ -18,9 +18,12 @@ import javax.persistence.Id;
 public class Fare {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    long id;
+    private long id;
     private String flightNumber;
     private String flightDate;
     private String fare;
+
+
+
 
 }
