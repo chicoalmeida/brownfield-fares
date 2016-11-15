@@ -32,7 +32,7 @@ public class BrownFieldFareApplication implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         List<Fare> fares = asList(
-                Fare.builder().flightNumber("BF100").flightDate("22-JAN-16").fare("101").build(),
+                Fare.builder().flightNumber("BF100").flightDate("22-JAN-16").fare("100").build(),
                 Fare.builder().flightNumber("BF101").flightDate("22-JAN-16").fare("101").build(),
                 Fare.builder().flightNumber("BF102").flightDate("22-JAN-16").fare("102").build(),
                 Fare.builder().flightNumber("BF103").flightDate("22-JAN-16").fare("103").build(),

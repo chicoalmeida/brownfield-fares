@@ -26,6 +26,6 @@ public class FaresController {
 
     @RequestMapping("/get")
     public ResponseEntity<Fare> getFare(@RequestParam(value = "flightNumber") String flightNumber, @RequestParam(value = "flightDate") String flightDate) {
-        return new ResponseEntity<Fare>(faresComponent.getFare(flightNumber, flightDate), HttpStatus.OK);
+        return new ResponseEntity<>(faresComponent.getFare(flightNumber, flightDate), HttpStatus.OK);
     }
 }
